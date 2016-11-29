@@ -1,0 +1,36 @@
+#identity-box, #dropmarker-icon, #historydropmarker, #autocomplete-history-dropmarker, #urlbar-history-dropmarker, #dropmarker {
+    display: none !important;
+}
+
+#urlbar-reload-button {
+    display: none !important;
+}
+
+/* remove back/fwd 
+
+#nav-bar  #back-button > .toolbarbutton-icon {
+ display: none !important;
+}
+ #forward-button {
+ display: none !important;
+}
+*/ 
+
+#urlbar {
+    border: none !important;
+    text-align: center !important;
+    background: transparent !important;
+    margin-top: -1px !important;
+    margin-left: -10px !important;
+    border-radius: 0px;
+    padding: 0px !important;
+    color: rgb(80,80,80) !important;
+    height: 10px;
+    font-size: 14px;
+}
+
+
+/* Tabs: no icons */
+.tabbrowser-tabs .tab-icon-image { display: none !important; }
+
+
